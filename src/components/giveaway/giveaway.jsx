@@ -266,7 +266,7 @@ const GiveAway = () => {
                     type="submit"
                     class="rounded-r-xl w-max inline-flex items-center border bg-[#23675A] md:font-bold text-white"
                   >
-                    <span class="font-inter text-[25px] px-5 md:px-10 leading-[20px] md:leading-[60px] md:font-bold">
+                    <span class="font-inter text-[15px] md:text-[25px] px-5 md:px-10 leading-[20px] md:leading-[60px] md:font-bold">
                       {" "}
                       Notify Me{" "}
                     </span>

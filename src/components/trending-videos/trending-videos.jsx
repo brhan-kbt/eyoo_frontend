@@ -40,7 +40,7 @@ const TrendingVideos = () => {
       </div>
       <div className="relative m:h-[250px] m:w-[500px] mx-auto ">
         <img src={cloud} alt="cloud" className="h-[600px] -mt-[19rem] z-0" />
-        <img src={halfArrow} alt="halfArrow" className="h-[100px] m:h-[200px] absolute top-0 ml-[9.2rem] mt-[18rem] m:mt-[16rem] left-0 z-10" />
+        <img src={halfArrow} alt="halfArrow" className="h-[100px] m:h-[200px] absolute top-0 ml-[8rem] md:ml-[9.2rem] mt-[18rem] m:mt-[16rem] left-0 z-10" />
       </div>
 
     </section>

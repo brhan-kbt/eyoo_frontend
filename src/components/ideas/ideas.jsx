@@ -59,8 +59,8 @@ const Ideas = () => {
   };
   return (
   <>
-    <div className="mx-[5rem] my-[5rem] ">
-      <div data-aos="fade-up" data-aos-duration="3000" className="underline decoration-[#FFA600] px-[0.8rem] text-[32px] mb-2 text-black font-bold">
+    <div className="md:mx-[5rem] my-[5rem] ">
+      <div data-aos="fade-up" data-aos-duration="3000" className="underline decoration-[#FFA600] px-[0.8rem] text-xl md:text-[32px] mb-2 text-black font-bold">
         Give Your Ideas
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2" data-aos="fade-up" data-aos-duration="3000">

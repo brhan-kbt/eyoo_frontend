@@ -85,21 +85,21 @@ const Navigation = () => {
       <div className={`${isOpen ? "block" : "hidden"} sm:hidden`}>
         <div className="fixed top-0 left-0 bottom-0 flex justify-between flex-col w-1/2 max-w-sm py-6 px-6 bg-[#DCDCDC] overflow-y-auto">
          <div className="flex flex-col justify-between">
-            <a href="#HOME" className="block text-[#000] font-bold text-lg py-2">
+            <a href="/" className="block text-[#000] font-bold text-lg py-2">
               HOME
             </a>
-            <a href="#GIVEAWAY" className="block text-[#000] font-bold text-lg py-2">
+            <a href="#giveaway" className="block text-[#000] font-bold text-lg py-2">
               GIVEAWAY
             </a>
-            <a href="#VIDEOS" className="block text-[#000] font-bold text-lg py-2">
+            <a href="#videos" className="block text-[#000] font-bold text-lg py-2">
               VIDEOS
             </a>
-            <a href="#SOCIALS" className="block text-[#000] font-bold text-lg py-2">
+            <a href="#socials" className="block text-[#000] font-bold text-lg py-2">
               SOCIALS
             </a>
-            <a href="/question" className="text-[#ff3737] font-bold text-lg block py-2">
+            {/* <a href="/question" className="text-[#ff3737] font-bold text-lg block py-2">
                 QUESTIONS
-              </a>
+              </a> */}
           </div>
           <div>
           <a href="/" className="bottom-0">

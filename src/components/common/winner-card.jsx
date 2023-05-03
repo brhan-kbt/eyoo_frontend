@@ -12,7 +12,7 @@ const WinnerCard = ({data}) => {
               <p>
                 Win <span className="text-yellow_chips font-bold">{data.cardBirr} card</span>
               </p>
-              <p>
+              <p className="text-sm">
                 {data.phone_number} 
               </p>
               </p>

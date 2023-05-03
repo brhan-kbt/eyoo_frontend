@@ -10,7 +10,7 @@ const WinnerCard = ({data}) => {
               <p class="text-lg font-medium">
               {data.name}
               <p>
-                Win <span className="text-yellow_chips font-bold">100 card</span>
+                Win <span className="text-yellow_chips font-bold">{data.cardBirr} card</span>
               </p>
               </p>
             <p className="font-medium">
